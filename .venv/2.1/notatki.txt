@@ -1,0 +1,14 @@
+mozna tez dodac ten sam typ znakow za pomoca plusa
+jesli nie damy argumentu to jest to pusty print i nic nie wyswietli jednak i tak przeniesie nas do kolejnej linijki
+zamiast pisac pustego printa mozna tez uzyc \n i  zadziala tak samo
+jesli chcemy dac jeden odwrocony ukośnik to musimy go wpisac podwójnie
+jesli jako ostatni argument damy end="" to wtedy print zlaczy sie z printem ktory damy pod nim
+
+aby dodac ten sam typ znakow mozna wpisac plusa miedzy argumentami, jesli damy pustego printa to wyswietli nam pusta linie
+zamiast tego mozna uzyc \n.
+
+Ostatnie argumenty:
+    end="" - dodany pusty polaczy 2 printy i napisze je w jednej lini, dodany z czyms w srodku doda to co wpiszemy w niego do tekstu
+    sep="-" - zastapi nam pusty znak miedzy argumentami i doda tam ten znak ktory wpiszemy do niego
+
+    mozna ich uzyc na raz
