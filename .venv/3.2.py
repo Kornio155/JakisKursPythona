@@ -31,6 +31,7 @@
 #     print(i, "Mississippi")
 #     time.sleep(1)
 # print("Gotowy czy nie - NADCHODZE")
+from unicodedata import digit
 
 # print("-----------------------------------3.2.9-----------------------------------------")
 # slowo = input("Wpisz slowo: ")
@@ -110,3 +111,14 @@
 #     else:
 #         print(x)
 
+# for i in "john.smith@pythoninstitute.org":
+#     if i == "@":
+#         break
+#     else:
+#         print(i, end="")
+
+for i in "0165031806510":
+    if i == "0":
+        print("x", end="")
+        continue
+        print(i, end="")
