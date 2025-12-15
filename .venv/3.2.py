@@ -76,21 +76,37 @@
 #
 # print("Wysokość piramidy to: ", wysokosc)
 
-print("-----------------------------------3.2.14-----------------------------------------")
-liczba = int(input("Podaj liczbe calkowita dodatnia: "))
-counter = 0
+# print("-----------------------------------3.2.14-----------------------------------------")
+# liczba = int(input("Podaj liczbe calkowita dodatnia: "))
+# counter = 0
+#
+# if liczba <=0:
+#     print("Nie wlasciwa liczba")
+# else:
+#     while liczba != 1:
+#         if liczba % 2 == 0:
+#             liczba = liczba / 2
+#             print(liczba)
+#             counter += 1
+#         else:
+#             liczba = 3 * liczba + 1
+#             print(liczba)
+#             counter += 1
+#
+# print("Ilosc krokow: ", counter)
 
-if liczba <=0:
-    print("Nie wlasciwa liczba")
-else:
-    while liczba != 1:
-        if liczba % 2 == 0:
-            liczba = liczba / 2
-            print(liczba)
-            counter += 1
-        else:
-            liczba = 3 * liczba + 1
-            print(liczba)
-            counter += 1
+#print("Podsumowanie")
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         continue
+#     else:
+#         print(i)
 
-print("Ilosc krokow: ", counter)
+# x = 1
+# while x < 10:
+#     x += 1
+#     if(x % 2 == 0):
+#         continue
+#     else:
+#         print(x)
+
