@@ -117,8 +117,36 @@ from unicodedata import digit
 #     else:
 #         print(i, end="")
 
-for i in "0165031806510":
-    if i == "0":
-        print("x", end="")
-        continue
-        print(i, end="")
+# for i in "0165031806510":
+#     if i == "0":
+#         print("x", end="")
+#         continue
+#         print(i, end="")
+#
+# print("-----------------------------------3.4-----------------------------------------")
+# numbers = [10, 5, 7, 2, 1]
+# print("Poczatkowe liczby: ", numbers)
+# numbers[0] = 111
+# print("Zmienione liczbty: ", numbers)
+# numbers[1] = numbers[4]
+# print("Po zmianie 2 z 5 elementem: ", numbers)
+# del numbers[1]
+# print("Po usunieciu 1 indexu", numbers)
+# print("-1 index", numbers[-1])
+
+# print("-----------------------------------3.4.6-----------------------------------------")
+# list = [1, 2, 3, 4, 5]
+#
+# liczba_uzyt = int(input("Podaj liczbe calkowita do zastapienia w srdoku listy: "))
+# list[2] = liczba_uzyt
+# del list[-1]
+# print("Liczba liczb w liscie", len(list))
+# print("Nowa lista", list)
+
+# print("-----------------------------------3.4.11-----------------------------------------")
+# beatles = []
+# beatles.append("John Lennon", "Paula McCartney", "Georg Harrison")
+# for i in beatles:
+#     beatles.append("") do dokonczenia!!!!!!!
+
+print("-----------------------------------3.4.6-----------------------------------------")
